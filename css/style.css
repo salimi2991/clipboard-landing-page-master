@@ -139,7 +139,7 @@ header {
 @media (min-width: 768px) {
   .content p {
     padding-inline: 0;
-    margin-bottom: 15rem;
+    margin-bottom: 13rem;
     font-size: var(--fz-medium);
   }
 }
@@ -310,12 +310,12 @@ header {
 
   .snippets .row .snippet-features {
     justify-content: flex-start;
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 
   .snippets .row .snippet-left {
     display: flex;
-    flex: 1;
+    flex-basis: 48%;
   }
 
   .snippets .row .snippet-img {
